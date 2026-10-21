@@ -12,8 +12,9 @@
     <!-- GG Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
     <!-- Animate.css -->
@@ -25,6 +26,11 @@
     <link
       href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css"
       rel="stylesheet"
+    />
+    <!-- swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
     <!-- Tailwind  -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -56,23 +62,17 @@
       <section class="pricing_table"></section>
       <!-- Pricing Table End -->
       <!-- Project Start -->
-      <!-- Project Start -->
-      <!-- Project Start -->
       <section
         class="project py-20 bg-white"
         style="font-family: &quot;Inter&quot;, sans-serif"
       >
-        <div class="max-w-6xl mx-auto px-4">
-          <div
-            class="project__title animate_top text-center max-w-2xl mx-auto mb-12"
-          >
-            <h2
-              class="text-3xl sm:text-4xl font-extrabold text-slate-900 mb-4 leading-tight"
-            >
+        <div class="max-w-6xl mx-auto px-4 md:px-6">
+          <div class="section-title animate_top">
+            <h2>
               We Offer Great Affordable <br />
               Premium Prices.
             </h2>
-            <p class="text-slate-500 text-base leading-relaxed">
+            <p>
               It is a long established fact that a reader will be distracted by
               the readable content of a page when looking at its layout. The
               point of using.
@@ -129,20 +129,14 @@
                     href="#"
                     class="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center text-white hover:bg-blue-700 transition"
                   >
-                    <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 14 14">
-                      <path
-                        d="M10.4763 6.16664L6.00634 1.69664L7.18467 0.518311L13.6663 6.99998L7.18467 13.4816L6.00634 12.3033L10.4763 7.83331H0.333008V6.16664H10.4763Z"
-                      ></path>
-                    </svg>
+                    <i class="fa-solid fa-arrow-right text-sm"></i>
                   </a>
                 </div>
               </div>
             </div>
 
             <!-- item 2 -->
-            <div
-              class="project__item w-full sm:w-1/2 md:w-1/3 p-3 branding ecommerce"
-            >
+            <div class="project__item w-full sm:w-1/2 md:w-1/3 p-3 digital">
               <div class="project-card bg-slate-100">
                 <img
                   src="./img/project-02.png"
@@ -158,11 +152,7 @@
                     href="#"
                     class="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center text-white hover:bg-blue-700 transition"
                   >
-                    <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 14 14">
-                      <path
-                        d="M10.4763 6.16664L6.00634 1.69664L7.18467 0.518311L13.6663 6.99998L7.18467 13.4816L6.00634 12.3033L10.4763 7.83331H0.333008V6.16664H10.4763Z"
-                      ></path>
-                    </svg>
+                    <i class="fa-solid fa-arrow-right text-sm"></i>
                   </a>
                 </div>
               </div>
@@ -186,17 +176,13 @@
                     href="#"
                     class="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center text-white hover:bg-blue-700 transition"
                   >
-                    <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 14 14">
-                      <path
-                        d="M10.4763 6.16664L6.00634 1.69664L7.18467 0.518311L13.6663 6.99998L7.18467 13.4816L6.00634 12.3033L10.4763 7.83331H0.333008V6.16664H10.4763Z"
-                      ></path>
-                    </svg>
+                    <i class="fa-solid fa-arrow-right text-sm"></i>
                   </a>
                 </div>
               </div>
             </div>
             <!-- item 3 -->
-            <div class="project__item w-full md:w-2/3 p-3 branding ecommerce">
+            <div class="project__item w-full md:w-2/3 p-3 digital ecommerce">
               <div class="project-card bg-slate-100">
                 <img
                   src="./img/project-03.png"
@@ -212,11 +198,7 @@
                     href="#"
                     class="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center text-white hover:bg-blue-700 transition"
                   >
-                    <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 14 14">
-                      <path
-                        d="M10.4763 6.16664L6.00634 1.69664L7.18467 0.518311L13.6663 6.99998L7.18467 13.4816L6.00634 12.3033L10.4763 7.83331H0.333008V6.16664H10.4763Z"
-                      ></path>
-                    </svg>
+                    <i class="fa-solid fa-arrow-right text-sm"></i>
                   </a>
                 </div>
               </div>
@@ -226,42 +208,967 @@
       </section>
       <!-- Project End -->
       <!-- Testimonials Start  -->
-      <section class="testimonials"></section>
+      <section
+        class="testimonials py-20 bg-white"
+        style="font-family: &quot;Inter&quot;, sans-serif"
+      >
+        <div class="max-w-6xl mx-auto px-3">
+          <div class="section-title animate_top mb-16">
+            <h2>Client’s Testimonials</h2>
+            <p>
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout. The
+              point of using.
+            </p>
+          </div>
+
+          <div class="animate_top relative">
+            <div class="swiper testimonial-swiper pb-16">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div
+                    class="flex flex-col md:flex-row bg-white rounded-lg shadow-[0_4px_30px_rgba(0,0,0,0.05)] relative overflow-hidden"
+                  >
+                    <div
+                      class="absolute right-0 top-0 w-1.5 h-full flex flex-col"
+                    >
+                      <span class="h-1/2 bg-blue-500"></span>
+                      <span class="h-1/2 bg-pink-400"></span>
+                    </div>
+                    <div
+                      class="w-full md:w-1/3 p-4 md:py-6 md:px-8 flex items-center justify-center"
+                    >
+                      <img
+                        src="./img/testimonial.png"
+                        alt="User"
+                        class="w-full h-full object-cover rounded-sm"
+                      />
+                    </div>
+                    <div
+                      class="w-full md:w-2/3 p-6 md:py-6 md:px-10 flex flex-col justify-center"
+                    >
+                      <img
+                        src="./img/icon-quote.svg"
+                        alt="Quote"
+                        class="w-10 h-10 mb-6"
+                      />
+                      <p
+                        class="text-2xl font-medium italic text-slate-500 leading-relaxed mb-10"
+                      >
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        In dolor diam, feugiat quis enim sed, ullamcorper semper
+                        ligula. Mauris consequat justo volutpat.
+                      </p>
+                      <div class="flex items-center justify-between mt-auto">
+                        <div>
+                          <h4 class="text-slate-900 font-bold text-lg">
+                            Devid Smith
+                          </h4>
+                          <p class="text-slate-400 text-sm mt-1">
+                            Founder @democompany
+                          </p>
+                        </div>
+                        <img
+                          src="./img/brand-light-02.svg"
+                          alt="Brand"
+                          class="h-6 mr-4"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div
+                    class="flex flex-col md:flex-row bg-white rounded-lg shadow-[0_4px_30px_rgba(0,0,0,0.05)] relative overflow-hidden"
+                  >
+                    <div
+                      class="absolute right-0 top-0 w-1.5 h-full flex flex-col"
+                    >
+                      <span class="h-1/2 bg-blue-500"></span>
+                      <span class="h-1/2 bg-pink-400"></span>
+                    </div>
+                    <div
+                      class="w-full md:w-1/3 p-4 md:py-6 md:px-8 flex items-center justify-center"
+                    >
+                      <img
+                        src="./img/testimonial.png"
+                        alt="User"
+                        class="w-full h-full object-cover rounded-sm"
+                      />
+                    </div>
+                    <div
+                      class="w-full md:w-2/3 p-6 md:py-6 md:px-10 flex flex-col justify-center"
+                    >
+                      <img
+                        src="./img/icon-quote.svg"
+                        alt="Quote"
+                        class="w-12 h-12 mb-6"
+                      />
+                      <p
+                        class="text-2xl font-medium italic text-slate-500 leading-relaxed mb-10"
+                      >
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        In dolor diam, feugiat quis enim sed, ullamcorper semper
+                        ligula. Mauris consequat justo volutpat.
+                      </p>
+                      <div class="flex items-center justify-between mt-auto">
+                        <div>
+                          <h4 class="text-slate-900 font-bold text-lg">
+                            Devid Smith
+                          </h4>
+                          <p class="text-slate-400 text-sm mt-1">
+                            Founder @democompany
+                          </p>
+                        </div>
+                        <img
+                          src="./img/brand-light-02.svg"
+                          alt="Brand"
+                          class="h-6 mr-4"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div
+                    class="flex flex-col md:flex-row bg-white rounded-lg shadow-[0_4px_30px_rgba(0,0,0,0.05)] relative overflow-hidden"
+                  >
+                    <div
+                      class="absolute right-0 top-0 w-1.5 h-full flex flex-col"
+                    >
+                      <span class="h-1/2 bg-blue-500"></span>
+                      <span class="h-1/2 bg-pink-400"></span>
+                    </div>
+                    <div
+                      class="w-full md:w-1/3 p-4 md:py-6 md:px-8 flex items-center justify-center"
+                    >
+                      <img
+                        src="./img/testimonial.png"
+                        alt="User"
+                        class="w-full h-full object-cover rounded-sm"
+                      />
+                    </div>
+                    <div
+                      class="w-full md:w-2/3 p-6 md:py-6 md:px-10 flex flex-col justify-center"
+                    >
+                      <img
+                        src="./img/icon-quote.svg"
+                        alt="Quote"
+                        class="w-12 h-12 mb-6"
+                      />
+                      <p
+                        class="text-2xl font-medium italic text-slate-500 leading-relaxed mb-10"
+                      >
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        In dolor diam, feugiat quis enim sed, ullamcorper semper
+                        ligula. Mauris consequat justo volutpat.
+                      </p>
+                      <div class="flex items-center justify-between mt-auto">
+                        <div>
+                          <h4 class="text-slate-900 font-bold text-lg">
+                            Devid Smith
+                          </h4>
+                          <p class="text-slate-400 text-base mt-1">
+                            Founder @democompany
+                          </p>
+                        </div>
+                        <img
+                          src="./img/brand-light-02.svg"
+                          alt="Brand"
+                          class="h-6 mr-4"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flex justify-center gap-4 mt-8 absolute bottom-0 left-0 w-full z-10"
+              >
+                <div
+                  class="testi-button-prev w-10 h-10 rounded-full border border-slate-300 flex items-center justify-center text-slate-500 hover:bg-blue-600 hover:text-white hover:border-blue-600 hover:shadow-[0_4px_10px_rgba(37,99,235,0.3)] cursor-pointer transition-all duration-300"
+                >
+                  <i class="fa-solid fa-arrow-left text-sm"></i>
+                </div>
+                <div
+                  class="testi-button-next w-10 h-10 rounded-full border border-slate-300 flex items-center justify-center text-slate-500 hover:bg-blue-600 hover:text-white hover:border-blue-600 hover:shadow-[0_4px_10px_rgba(37,99,235,0.3)] cursor-pointer transition-all duration-300"
+                >
+                  <i class="fa-solid fa-arrow-right text-sm"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- Testimonials End  -->
       <!-- Counter Start  -->
-      <section class="counter"></section>
+      <section
+        class="counter relative py-20 lg:py-28 bg-slate-100 overflow-hidden"
+      >
+        <img
+          src="./img/shape-11.svg"
+          alt="Shape"
+          class="absolute bottom-4 left-12 w-14 md:w-16 z-0 animate-spin-slow"
+        />
+        <img
+          src="./img/shape-14.svg"
+          alt="Shape"
+          class="absolute top-0 left-[35%] z-0"
+        />
+        <img
+          src="./img/shape-07.svg"
+          alt="Shape"
+          class="absolute right-20 top-4 rotate-45 w-20 md:w-24 z-0"
+        />
+        <img
+          src="./img/shape-15.svg"
+          alt="Shape"
+          class="absolute right-0 bottom-0"
+        />
+        <div class="max-w-6xl mx-auto px-4 md:px-8 relative z-10">
+          <div
+            class="flex flex-wrap justify-center gap-8 md:flex-nowrap md:items-center md:justify-between"
+          >
+            <!-- Item 1 -->
+            <div class="animate_top w-2/5 md:w-auto text-center">
+              <h2
+                class="counter-number text-4xl md:text-[44px] font-extrabold text-slate-900 mb-3"
+              >
+                785
+              </h2>
+              <p class="text-slate-500 text-base md:text-xl font-medium">
+                Global Brands
+              </p>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="animate_top w-2/5 md:w-auto text-center">
+              <h2
+                class="counter-number text-4xl md:text-[44px] font-extrabold text-slate-900 mb-3"
+              >
+                533
+              </h2>
+              <p class="text-slate-500 text-base md:text-xl font-medium">
+                Happy Clients
+              </p>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="animate_top w-2/5 md:w-auto text-center">
+              <h2
+                class="counter-number text-4xl md:text-[44px] font-extrabold text-slate-900 mb-3"
+              >
+                865
+              </h2>
+              <p class="text-slate-500 text-base md:text-xl font-medium">
+                Winning Award
+              </p>
+            </div>
+
+            <!-- Item 4 -->
+            <div class="animate_top w-2/5 md:w-auto text-center">
+              <h2
+                class="counter-number text-4xl md:text-[44px] font-extrabold text-slate-900 mb-3"
+              >
+                346
+              </h2>
+              <p class="text-slate-500 text-base md:text-xl font-medium">
+                Happy Clients
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- Counter End  -->
       <!-- Clients Start -->
-      <section class="clients"></section>
+      <section
+        class="clients py-20 bg-white"
+        style="font-family: &quot;Inter&quot;, sans-serif"
+      >
+        <div class="max-w-6xl mx-auto px-3">
+          <div class="section-title animate_top mb-16">
+            <h2>Trusted by Global Brands</h2>
+            <p>
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout. The
+              point of using.
+            </p>
+          </div>
+        </div>
+        <div
+          class="mx-auto mt-[60px] max-w-[1390px] border-b border-[#D8E1ED] px-4 pb-20 md:px-8 lg:pb-[90px] 2xl:px-[196px]"
+        >
+          <div
+            class="grid grid-cols-3 md:grid-cols-6 items-center justify-center gap-[30px] lg:gap-[50px] xl:gap-[70px]"
+          >
+            <a href="#" class="brand-logo animate_top block">
+              <img src="./img/brand-light-01.svg" alt="Clients" />
+              <img src="./img/brand-dark-01.svg" alt="Clients" />
+            </a>
+            <a href="#" class="brand-logo animate_top block">
+              <img src="./img/brand-light-02.svg" alt="Clients" />
+              <img src="./img/brand-dark-02.svg" alt="Clients" />
+            </a>
+            <a href="#" class="brand-logo animate_top block">
+              <img src="./img/brand-light-03.svg" alt="Clients" />
+              <img src="./img/brand-dark-03.svg" alt="Clients" />
+            </a>
+            <a href="#" class="brand-logo animate_top block">
+              <img src="./img/brand-light-04.svg" alt="Clients" />
+              <img src="./img/brand-dark-04.svg" alt="Clients" />
+            </a>
+            <a href="#" class="brand-logo animate_top block">
+              <img src="./img/brand-light-05.svg" alt="Clients" />
+              <img src="./img/brand-dark-05.svg" alt="Clients" />
+            </a>
+            <a href="#" class="brand-logo animate_top block">
+              <img src="./img/brand-light-06.svg" alt="Clients" />
+              <img src="./img/brand-dark-06.svg" alt="Clients" />
+            </a>
+          </div>
+        </div>
+      </section>
       <!-- Clients End -->
       <!-- Blog Start  -->
-      <section class="blog"></section>
+      <section
+        class="blog py-20 bg-white"
+        style="font-family: &quot;Inter&quot;, sans-serif"
+      >
+        <div class="max-w-6xl mx-auto px-3">
+          <div class="section-title animate_top mb-16">
+            <h2>Latest Blogs & News</h2>
+            <p>
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout. The
+              point of using.
+            </p>
+          </div>
+        </div>
+        <!-- Blog list -->
+        <div class="mx-auto max-w-[1280px] px-4 md:px-8 xl:px-0">
+          <div
+            class="grid grid-cols-1 gap-[30px] md:grid-cols-2 lg:grid-cols-3 xl:gap-10"
+          >
+            <!-- Blog item 1-->
+            <div
+              class="animate_top rounded-lg bg-white shadow-[0_8px_70px_rgba(0,0,0,0.05)]"
+            >
+              <div class="group relative block overflow-hidden">
+                <img src="./img/blog-01.png" alt="" />
+                <div
+                  class="absolute left-0 top-0 z-10 flex h-full w-full translate-y-full items-center justify-center rounded-t-lg bg-white/20 backdrop-blur-[8px] transition duration-300 ease-linear group-hover:translate-y-0"
+                >
+                  <a
+                    href="#"
+                    class="inline-flex rounded-full bg-[#4E6BFF] px-[30px] py-3 font-medium text-white transition duration-300 hover:bg-[#F36A8D]"
+                    >Read More</a
+                  >
+                </div>
+              </div>
+              <div class="p-[30px]">
+                <div class="flex flex-wrap items-center gap-2 xl:gap-5">
+                  <div class="flex items-center gap-2">
+                    <img src="./img/icon-man.svg" alt="" />
+                    <p class="leading-[26px] text-[#79808A]">Musharof Chy</p>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <img src="./img/icon-calender.svg" alt="" />
+                    <p class="leading-[26px] text-[#79808A]">25 Dec, 2025</p>
+                  </div>
+                </div>
+                <h4
+                  class="mt-3 font-['Outfit'] text-2xl font-medium text-[#181C31] transition duration-300 hover:text-[#4E6BFF] xl:w-[90%]"
+                >
+                  <a href="#">Free advertising for your online business</a>
+                </h4>
+              </div>
+            </div>
+            <!-- Blog item 2 -->
+            <div
+              class="animate_top rounded-lg bg-white shadow-[0_8px_70px_rgba(0,0,0,0.05)]"
+            >
+              <div class="group relative block overflow-hidden">
+                <img src="./img/blog-02.png" alt="" />
+                <div
+                  class="absolute left-0 top-0 z-10 flex h-full w-full translate-y-full items-center justify-center rounded-t-lg bg-white/20 backdrop-blur-[8px] transition duration-300 ease-linear group-hover:translate-y-0"
+                >
+                  <a
+                    href="#"
+                    class="inline-flex rounded-full bg-[#4E6BFF] px-[30px] py-3 font-medium text-white transition duration-300 hover:bg-[#F36A8D]"
+                    >Read More</a
+                  >
+                </div>
+              </div>
+              <div class="p-[30px]">
+                <div class="flex flex-wrap items-center gap-2 xl:gap-5">
+                  <div class="flex items-center gap-2">
+                    <img src="./img/icon-man.svg" alt="" />
+                    <p class="leading-[26px] text-[#79808A]">Musharof Chy</p>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <img src="./img/icon-calender.svg" alt="" />
+                    <p class="leading-[26px] text-[#79808A]">25 Dec, 2025</p>
+                  </div>
+                </div>
+                <h4
+                  class="mt-3 font-['Outfit'] text-2xl font-medium text-[#181C31] transition duration-300 hover:text-[#4E6BFF] xl:w-[90%]"
+                >
+                  <a href="#">9 simple ways to improve your design skills</a>
+                </h4>
+              </div>
+            </div>
+            <!-- Blog item 3 -->
+            <div
+              class="animate_top rounded-lg bg-white shadow-[0_8px_70px_rgba(0,0,0,0.05)]"
+            >
+              <div class="group relative block overflow-hidden">
+                <img src="./img/blog-03.png" alt="" />
+                <div
+                  class="absolute left-0 top-0 z-10 flex h-full w-full translate-y-full items-center justify-center rounded-t-lg bg-white/20 backdrop-blur-[8px] transition duration-300 ease-linear group-hover:translate-y-0"
+                >
+                  <a
+                    href="#"
+                    class="inline-flex rounded-full bg-[#4E6BFF] px-[30px] py-3 font-medium text-white transition duration-300 hover:bg-[#F36A8D]"
+                    >Read More</a
+                  >
+                </div>
+              </div>
+              <div class="p-[30px]">
+                <div class="flex flex-wrap items-center gap-2 xl:gap-5">
+                  <div class="flex items-center gap-2">
+                    <img src="./img/icon-man.svg" alt="" />
+                    <p class="leading-[26px] text-[#79808A]">Musharof Chy</p>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <img src="./img/icon-calender.svg" alt="" />
+                    <p class="leading-[26px] text-[#79808A]">25 Dec, 2025</p>
+                  </div>
+                </div>
+                <h4
+                  class="mt-3 font-['Outfit'] text-2xl font-medium text-[#181C31] transition duration-300 hover:text-[#4E6BFF] xl:w-[90%]"
+                >
+                  <a href="#">Tips to quickly improve your coding speed.</a>
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- Blog End  -->
       <!-- Contact Start  -->
-      <section class="contact"></section>
+      <section
+        class="contact relative overflow-hidden bg-[#F4F7FA] py-20 lg:py-[100px] xl:py-[120px]"
+      >
+        <!-- BG Shapes (vị trí theo Base) -->
+        <img
+          src="./img/shape-06.svg"
+          alt="Shape"
+          class="absolute left-[10%] top-[5%]"
+        />
+        <img
+          src="./img/shape-03.svg"
+          alt="Shape"
+          class="absolute right-[20%] top-[25%]"
+        />
+        <img
+          src="./img/shape-07.svg"
+          alt="Shape"
+          class="absolute bottom-[10%] right-[5%] w-[100px]"
+        />
+        <img
+          src="./img/shape-12.svg"
+          alt="Shape"
+          class="absolute bottom-0 left-0"
+        />
+        <img
+          src="./img/shape-13.svg"
+          alt="Shape"
+          class="absolute right-0 top-0"
+        />
+        <!-- Title -->
+        <!-- Bỏ bg-white + py-20 để nền xám liền mạch như Base; padding trên chuyển lên section -->
+        <div
+          class="relative z-10"
+          style="font-family: &quot;Inter&quot;, sans-serif"
+        >
+          <div class="max-w-6xl mx-auto px-3">
+            <div class="section-title animate_top mb-16">
+              <h2>Let’s Stay Connected</h2>
+              <p>
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its layout.
+                The point of using.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Title mb-16 (64px) + lg:mt-4 = 80px như Base -->
+        <div
+          class="relative z-10 mx-auto max-w-[1280px] px-4 md:px-8 lg:mt-4 xl:px-9"
+        >
+          <!-- Flex: mobile form ở trên (col-reverse) | md+: card trái 2/5→1/3, form phải 3/5→2/3 -->
+          <div
+            class="flex flex-col-reverse flex-wrap gap-[30px] md:flex-row md:flex-nowrap md:justify-between xl:gap-10"
+          >
+            <!-- Card thông tin -->
+            <div
+              class="animate_top relative w-full overflow-hidden rounded-lg bg-white p-[30px] shadow-[0_8px_70px_rgba(0,0,0,0.05)] md:w-2/5 lg:w-1/3 xl:p-[50px]"
+            >
+              <!-- Bg Shapes -->
+              <img
+                src="./img/shape-03.svg"
+                alt="Shape"
+                class="absolute right-5 top-5 w-[30px]"
+              />
+              <img
+                src="./img/shape-06.svg"
+                alt="Shape"
+                class="absolute bottom-5 right-5 w-6 rotate-180"
+              />
+              <div class="mb-10">
+                <h4
+                  class="mb-1.5 font-['Outfit'] text-[22px] leading-[26px] text-[#181C31]"
+                >
+                  Email Address
+                </h4>
+                <p class="leading-[26px] text-[#79808A]">
+                  <a href="#">support@startup.com</a>
+                </p>
+              </div>
+              <div class="mb-10">
+                <h4
+                  class="mb-1.5 font-['Outfit'] text-[22px] leading-[26px] text-[#181C31]"
+                >
+                  Office Location
+                </h4>
+                <p class="leading-[26px] text-[#79808A]">
+                  76/A, Green valle, Califonia USA.
+                </p>
+              </div>
+              <div class="mb-10">
+                <h4
+                  class="mb-1.5 font-['Outfit'] text-[22px] leading-[26px] text-[#181C31]"
+                >
+                  Phone Number
+                </h4>
+                <p class="leading-[26px] text-[#79808A]">
+                  <a href="#">+009 8754 3433 223</a>
+                </p>
+              </div>
+              <div class="mb-10">
+                <h4
+                  class="mb-1.5 font-['Outfit'] text-[22px] leading-[26px] text-[#181C31]"
+                >
+                  Skype Email
+                </h4>
+                <p class="leading-[26px] text-[#79808A]">
+                  <a href="#">example@yourmail.com</a>
+                </p>
+              </div>
+              <!-- Đường kẻ ngăn cách -->
+              <span class="mb-10 mt-5 block h-px w-full bg-[#D8E1ED]"></span>
+              <div>
+                <h4
+                  class="mb-[30px] font-['Outfit'] text-[22px] leading-[26px] text-[#181C31]"
+                >
+                  Social Media
+                </h4>
+                <!-- Icon: xám, hover → nền xanh + icon trắng -->
+                <ul class="flex items-center gap-4">
+                  <li>
+                    <a
+                      href="#"
+                      aria-label="Facebook"
+                      class="group flex h-10 w-10 items-center justify-center rounded-full transition duration-300 hover:bg-[#4E6BFF]"
+                    >
+                      <i
+                        class="fa-brands fa-facebook-f text-lg text-[#79808A] transition duration-300 group-hover:text-white"
+                      ></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      aria-label="Twitter"
+                      class="group flex h-10 w-10 items-center justify-center rounded-full transition duration-300 hover:bg-[#4E6BFF]"
+                    >
+                      <i
+                        class="fa-brands fa-twitter text-lg text-[#79808A] transition duration-300 group-hover:text-white"
+                      ></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      aria-label="LinkedIn"
+                      class="group flex h-10 w-10 items-center justify-center rounded-full transition duration-300 hover:bg-[#4E6BFF]"
+                    >
+                      <i
+                        class="fa-brands fa-linkedin-in text-lg text-[#79808A] transition duration-300 group-hover:text-white"
+                      ></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      aria-label="Behance"
+                      class="group flex h-10 w-10 items-center justify-center rounded-full transition duration-300 hover:bg-[#4E6BFF]"
+                    >
+                      <i
+                        class="fa-brands fa-behance text-lg text-[#79808A] transition duration-300 group-hover:text-white"
+                      ></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Form liên hệ -->
+            <div
+              class="animate_top w-full rounded-lg bg-white p-[30px] shadow-[0_8px_70px_rgba(0,0,0,0.05)] md:w-3/5 lg:w-2/3 xl:p-14"
+            >
+              <form action="">
+                <!-- Hàng 1: mobile xếp dọc | lg+: 2 ô cạnh nhau -->
+                <div
+                  class="mb-[30px] flex flex-col gap-[30px] lg:flex-row lg:justify-between lg:gap-10"
+                >
+                  <div class="w-full lg:w-1/2">
+                    <label for="fullname" class="mb-4 block text-[#79808A]"
+                      >Full name</label
+                    >
+                    <input
+                      type="text"
+                      name="fullname"
+                      id="fullname"
+                      placeholder="Devid Wonder"
+                      class="w-full rounded-lg border border-[#D8E1ED] bg-transparent px-6 py-3.5 text-[#79808A] shadow-[0_6px_30px_rgba(0,0,0,0.03)] placeholder:text-[#79808A]/50 focus:border-[#4E6BFF] focus:shadow-[0_6px_30px_rgba(78,107,255,0.1)] focus:ring-0 focus-visible:outline-none"
+                    />
+                  </div>
+                  <div class="w-full lg:w-1/2">
+                    <label for="email" class="mb-4 block text-[#79808A]"
+                      >Email address</label
+                    >
+                    <input
+                      type="email"
+                      name="email"
+                      id="email"
+                      placeholder="example@gmail.com"
+                      class="w-full rounded-lg border border-[#D8E1ED] bg-transparent px-6 py-3.5 text-[#79808A] shadow-[0_6px_30px_rgba(0,0,0,0.03)] placeholder:text-[#79808A]/50 focus:border-[#4E6BFF] focus:shadow-[0_6px_30px_rgba(78,107,255,0.1)] focus:ring-0 focus-visible:outline-none"
+                    />
+                  </div>
+                </div>
+                <!-- Hàng 2 -->
+                <div
+                  class="mb-[30px] flex flex-col gap-[30px] lg:flex-row lg:justify-between lg:gap-10"
+                >
+                  <div class="w-full lg:w-1/2">
+                    <label for="phone" class="mb-4 block text-[#79808A]"
+                      >Phone number</label
+                    >
+                    <input
+                      type="text"
+                      name="phone"
+                      id="phone"
+                      placeholder="+009 3342 3432"
+                      class="w-full rounded-lg border border-[#D8E1ED] bg-transparent px-6 py-3.5 text-[#79808A] shadow-[0_6px_30px_rgba(0,0,0,0.03)] placeholder:text-[#79808A]/50 focus:border-[#4E6BFF] focus:shadow-[0_6px_30px_rgba(78,107,255,0.1)] focus:ring-0 focus-visible:outline-none"
+                    />
+                  </div>
+                  <div class="w-full lg:w-1/2">
+                    <label for="subject" class="mb-4 block text-[#79808A]"
+                      >Subject</label
+                    >
+                    <input
+                      type="text"
+                      name="subject"
+                      id="subject"
+                      placeholder="Type your subject"
+                      class="w-full rounded-lg border border-[#D8E1ED] bg-transparent px-6 py-3.5 text-[#79808A] shadow-[0_6px_30px_rgba(0,0,0,0.03)] placeholder:text-[#79808A]/50 focus:border-[#4E6BFF] focus:shadow-[0_6px_30px_rgba(78,107,255,0.1)] focus:ring-0 focus-visible:outline-none"
+                    />
+                  </div>
+                </div>
+                <div class="mb-10">
+                  <label for="message" class="mb-4 block text-[#79808A]"
+                    >Message</label
+                  >
+                  <textarea
+                    name="message"
+                    id="message"
+                    rows="4"
+                    placeholder="Message"
+                    class="w-full rounded-lg border border-[#D8E1ED] bg-transparent p-6 text-[#79808A] shadow-[0_6px_30px_rgba(0,0,0,0.03)] placeholder:text-[#79808A]/50 focus:border-[#4E6BFF] focus:shadow-[0_6px_30px_rgba(78,107,255,0.1)] focus:ring-0 focus-visible:outline-none"
+                  ></textarea>
+                </div>
+                <div class="flex justify-center">
+                  <button
+                    type="submit"
+                    class="inline-flex rounded-full bg-[#4E6BFF] px-[30px] py-3 text-white transition duration-300 hover:shadow-[0_10px_25px_rgba(78,107,255,0.2)]"
+                  >
+                    Send Message
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- Contact End  -->
       <!-- CTA Start -->
-      <section class="cta"></section>
+      <section class="cta relative overflow-hidden bg-[#4E6BFF] py-20">
+        <img
+          src="./img/shape-16.svg"
+          alt="Shape"
+          class="absolute bottom-0 right-0"
+        />
+        <div class="relative z-10 mx-auto max-w-[1280px] px-4 md:px-8 xl:px-5">
+          <div
+            class="flex flex-wrap gap-8 md:flex-nowrap md:items-center md:justify-between"
+          >
+            <div class="animate_left lg:w-1/2">
+              <h2
+                class="mb-4 font-['Outfit'] text-3xl font-semibold text-white lg:text-4xl xl:text-[45px] xl:leading-[55px]"
+              >
+                Join with 5000+ Startups Growing with Base.
+              </h2>
+              <p class="leading-[26px] text-white">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                quis nibh lorem. Duis sed odio lorem. In a efficitur leo. Ut
+                venenatis rhoncus.
+              </p>
+            </div>
+            <div class="animate_right shrink-0">
+              <a
+                href="#"
+                class="inline-flex rounded-full bg-white px-[30px] py-3 font-medium text-[#181C31] transition duration-300 ease-out hover:shadow-xl"
+              >
+                Get Started Now
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- CTA End -->
     </main>
     <!-- End main  -->
     <!-- Start footer  -->
-    <footer></footer>
+    <footer class="text-[#79808A]">
+      <div class="mx-auto max-w-[1390px] px-4 md:px-8 2xl:px-0">
+        <div class="py-20 lg:py-[100px]">
+          <div class="flex flex-wrap gap-8 lg:justify-between lg:gap-0">
+            <div class="animate_top w-1/2 lg:w-1/4">
+              <a href="index.html">
+                <img src="./img/logo-light.svg" alt="Logo" />
+              </a>
+              <p class="mb-10 mt-5 leading-[26px]">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+              <ul class="flex items-center gap-5">
+                <li>
+                  <a href="#" aria-label="Facebook">
+                    <i
+                      class="fa-brands fa-facebook-f text-xl text-[#D1D8E0] transition-all duration-300 hover:text-[#4E6BFF]"
+                    ></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" aria-label="Twitter">
+                    <i
+                      class="fa-brands fa-twitter text-xl text-[#D1D8E0] transition-all duration-300 hover:text-[#4E6BFF]"
+                    ></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" aria-label="LinkedIn">
+                    <i
+                      class="fa-brands fa-linkedin-in text-xl text-[#D1D8E0] transition-all duration-300 hover:text-[#4E6BFF]"
+                    ></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" aria-label="Behance">
+                    <i
+                      class="fa-brands fa-behance text-xl text-[#D1D8E0] transition-all duration-300 hover:text-[#4E6BFF]"
+                    ></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="flex w-full flex-col gap-8 md:flex-row md:justify-between md:gap-0 lg:w-[70%]"
+            >
+              <div class="animate_top">
+                <h4
+                  class="mb-9 font-['Outfit',sans-serif] text-2xl text-[#181C31]"
+                >
+                  Quick Links
+                </h4>
+                <ul>
+                  <li>
+                    <a href="#" class="mb-3 inline-block hover:text-[#4E6BFF]"
+                      >Home</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="mb-3 inline-block hover:text-[#4E6BFF]"
+                      >Product</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="mb-3 inline-block hover:text-[#4E6BFF]"
+                      >Careers
+                      <span
+                        class="ml-2.5 inline-block rounded-full bg-[#20CA66] px-3 py-0.5 text-xs font-medium text-white"
+                        >Hiring</span
+                      ></a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="mb-3 inline-block hover:text-[#4E6BFF]"
+                      >Pricing</a
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <div class="animate_top">
+                <h4
+                  class="mb-9 font-['Outfit',sans-serif] text-2xl text-[#181C31]"
+                >
+                  Services
+                </h4>
+                <ul>
+                  <li>
+                    <a href="#" class="mb-3 inline-block hover:text-[#4E6BFF]"
+                      >Web Development</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="mb-3 inline-block hover:text-[#4E6BFF]"
+                      >Graphics Design</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="mb-3 inline-block hover:text-[#4E6BFF]"
+                      >Digital Marketing</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="mb-3 inline-block hover:text-[#4E6BFF]"
+                      >Ui/Ux Design</a
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <div class="animate_top">
+                <h4
+                  class="mb-9 font-['Outfit',sans-serif] text-2xl text-[#181C31]"
+                >
+                  Support
+                </h4>
+                <ul>
+                  <li>
+                    <a href="#" class="mb-3 inline-block hover:text-[#4E6BFF]"
+                      >Company</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="mb-3 inline-block hover:text-[#4E6BFF]"
+                      >Press media</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="mb-3 inline-block hover:text-[#4E6BFF]"
+                      >Our Blog</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="mb-3 inline-block hover:text-[#4E6BFF]"
+                      >Contact Us</a
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <div class="animate_top">
+                <h4
+                  class="mb-9 font-['Outfit',sans-serif] text-2xl text-[#181C31]"
+                >
+                  Newsletter
+                </h4>
+                <p class="mb-4 w-[90%]">Subscribe to receive future updates</p>
+                <form action="">
+                  <div class="relative">
+                    <input
+                      type="email"
+                      name="newsletter"
+                      placeholder="Email address"
+                      class="w-full rounded-full border border-[#D8E1ED] bg-white px-6 py-3 shadow-[0_8px_70px_rgba(0,0,0,0.05)] focus:border-[#4E6BFF] focus:ring-0 focus:outline-none"
+                    />
+                    <button
+                      type="submit"
+                      aria-label="Subscribe"
+                      class="absolute inset-y-0 right-0 flex items-center px-4"
+                    >
+                      <i
+                        class="fa-regular fa-paper-plane text-lg text-[#79808A] transition-all duration-300 hover:text-[#4E6BFF]"
+                      ></i>
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex flex-col flex-wrap items-center justify-center gap-5 border-t border-[#D8E1ED] py-[30px] lg:flex-row lg:justify-between lg:gap-0"
+        >
+          <div class="animate_top">
+            <ul class="flex items-center gap-8">
+              <li><a href="#" class="hover:text-[#4E6BFF]">English</a></li>
+              <li>
+                <a href="#" class="hover:text-[#4E6BFF]">Privacy Policy</a>
+              </li>
+              <li><a href="#" class="hover:text-[#4E6BFF]">Support</a></li>
+            </ul>
+          </div>
+          <div class="animate_top">
+            <p>&copy; 2025 Base. All rights reserved</p>
+          </div>
+        </div>
+      </div>
+    </footer>
     <!-- End footer  -->
+    <!-- Back to top -->
+    <button
+      id="backToTop"
+      type="button"
+      aria-label="Back to top"
+      class="fixed js-cd-top cd-top bottom-8 right-12 z-[999] flex h-10 w-10 items-center justify-center rounded bg-[#4E6BFF] transition-all duration-300 hover:shadow-[0_10px_25px_rgba(78,107,255,0.3)]"
+    >
+      <i class="fa-solid fa-chevron-up text-lg text-white"></i>
+    </button>
     <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
     <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
-    <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./libs/backToTop/util.js"></script>
+    <script src="./libs/backToTop/main.js"></script>
     <script>
       ScrollReveal().reveal(".animate_top", {
         origin: "top",
-        distance: "50px",
-        duration: 1000,
-        delay: 200,
-        reset: false,
+        distance: "60px",
+        interval: 100,
+      });
+      ScrollReveal().reveal(".animate_left", {
+        origin: "left",
+        distance: "60px",
+        interval: 100,
+      });
+      ScrollReveal().reveal(".animate_right", {
+        origin: "right",
+        distance: "60px",
+        interval: 100,
       });
       window.addEventListener("load", function () {
         const elem = document.querySelector(".project__wrapper");
@@ -286,6 +1193,20 @@
               this.classList.add("bg-blue-600", "text-white");
             });
           });
+        });
+        const testimonialSwiper = new Swiper(".testimonial-swiper", {
+          loop: true,
+          slidesPerView: 1,
+          spaceBetween: 30,
+          grabCursor: true,
+          autoplay: {
+            delay: 4000,
+            disableOnInteraction: false,
+          },
+          navigation: {
+            nextEl: ".testi-button-next",
+            prevEl: ".testi-button-prev",
+          },
         });
       });
     </script>
