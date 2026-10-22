@@ -14,7 +14,8 @@
   --blue-soft: #1b2440;
   --dark: #f4f6fa;
   --text: #a0aab8; --gray: #161c26; --bg: #0f141c;
-  --surface: #1a212d;--border: #2a3342; --shadow: 0 10px 40px rgba(0, 0, 0, 0.35); color-scheme: dark;
+  --surface: #1a212d;--border: #2a3342; --shadow: 0 10px 40px rgba(0, 0, 0, 0.35);
+   color-scheme: dark;
 }
 * { margin: 0; padding: 0; box-sizing: border-box; }
 html { scroll-behavior: smooth; scroll-padding-top: 80px; }
@@ -56,7 +57,13 @@ h4 { font-size: 22px; }
 .btn--text { color: var(--dark); }
 .btn--text:hover { color: var(--blue); }
 .btn--big { padding: 14px 30px; }
-
+.bolt {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  clip-path: polygon(56% 0, 17% 56%, 42% 56%, 37% 100%, 79% 41%, 52% 41%);
+}
 /* phần tiêu đề đổi từ trans thành có màu lúc maf cuộn xuống */
 @property --hf { syntax: "<color>"; inherits: true; initial-value: #ffffff; }
 @property --hb { syntax: "<color>"; inherits: true; initial-value: rgba(255, 255, 255, 0.2); }
@@ -82,9 +89,7 @@ h4 { font-size: 22px; }
 
 .nav__drop { position: relative; }
 .nav__drop > a { display: inline-flex; align-items: center; gap: 8px; padding: 26px 0; }
-.nav__drop > a svg { width: 14px; height: 14px; fill: none; stroke: 
-  currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: 
-  round; transition: transform 0.2s; }
+.nav__arrow { display: inline-block; font-size: 16px; transition: transform 0.2s; }
 .nav__menu { position: absolute; top: 100%; left: -26px; width: 210px; padding: 14px 0;
   border: 1px solid var(--border); border-radius: 8px; background: var(--surface); box-shadow: var(--shadow);
   opacity: 0; visibility: hidden; transform: translateY(10px); transition: 0.25s; }
@@ -107,8 +112,7 @@ h4 { font-size: 22px; }
 
 .theme-toggle { display: grid; place-items: center; width: 42px; height: 42px; border: 0; border-radius: 50%; background: transparent; color: var(--hf); cursor: pointer; transition: background 0.3s; }
 .theme-toggle:hover { background: rgba(128, 128, 128, 0.2); }
-.theme-toggle svg { width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
-.theme-toggle .moon { display: none; }
+.theme-toggle span { font-size: 24px; line-height: 1; }.theme-toggle .moon { display: none; }
 :root:has(#themeCheck:checked) .theme-toggle .sun { display: none; }
 :root:has(#themeCheck:checked) .theme-toggle .moon { display: block; }
 
@@ -147,7 +151,6 @@ h4 { font-size: 22px; }
 .feature h4 { font-size: 24px; }
 .feature p { margin-top: 4px; }
 
-/* ============ SERVICES ============ */
 .head p { margin-top: 4px; }
 #services .head { width: 700px; }
 #services .grid { gap: 24px 0; }
@@ -176,8 +179,11 @@ h4 { font-size: 22px; }
 
 .play { display: inline-flex; align-items: center; gap: 32px; margin-left: 15px; font-weight: 500; letter-spacing: 0.3px; color: var(--dark); }
 .play__btn { display: grid; place-items: center; width: 50px; height: 50px; border-radius: 50%; background: var(--blue); box-shadow: 0 0 0 15px rgba(74, 108, 247, 0.25); }
-.play__btn svg { width: 20px; height: 20px; margin-left: 2px; fill: #fff; }
-
+.play__icon { width: 20px; 
+  height: 20px;
+   margin-left: 3px; 
+   background: #fff;
+   clip-path: polygon(0 0, 100% 50%, 0 100%); }
 .member { text-align: center; }
 .member__photo { position: relative; height: 330px;
    overflow: hidden; border-radius: 12px; 
